@@ -1,0 +1,87 @@
+package com.taylorm.dissertation.data.api.entities
+
+
+import com.squareup.moshi.Json
+import com.squareup.moshi.JsonClass
+
+@JsonClass(generateAdapter = true)
+data class GetProviderResponse(
+    @Json(name = "brandId")
+    val brandId: String,
+    @Json(name = "brandName")
+    val brandName: String,
+    @Json(name = "charityNumber")
+    val charityNumber: String,
+    /*@Json(name = "companiesHouseNumber")
+    val companiesHouseNumber: String?,
+    @Json(name = "constituency")
+    val constituency: String?,
+    @Json(name = "contacts")
+    val contacts: List<Contact>,
+    @Json(name = "currentRatings")
+    val currentRatings: CurrentRatings,
+    @Json(name = "historicRatings")
+    val historicRatings: List<HistoricRating>,
+    @Json(name = "inspectionAreas")
+    val inspectionAreas: List<InspectionArea>,
+    @Json(name = "inspectionCategories")
+    val inspectionCategories: List<InspectionCategory>,
+    @Json(name = "inspectionDirectorate")
+    val inspectionDirectorate: String?,
+    @Json(name = "lastInspection")
+    val lastInspection: LastInspection,
+    @Json(name = "lastReport")
+    val lastReport: LastReport,
+    @Json(name = "localAuthority")
+    val localAuthority: String?,
+    @Json(name = "locationIds")
+    val locationIds: List<String?>,
+    @Json(name = "mainPhoneNumber")
+    val mainPhoneNumber: String?,
+    @Json(name = "name")
+    val name: String?,
+    @Json(name = "odsCode")
+    val odsCode: String?,
+    @Json(name = "onspdIcbCode")
+    val onspdIcbCode: String?,
+    @Json(name = "onspdIcbName")
+    val onspdIcbName: String?,
+    @Json(name = "onspdLatitude")
+    val onspdLatitude: Double,
+    @Json(name = "onspdLongitude")
+    val onspdLongitude: Double,
+    @Json(name = "organisationType")
+    val organisationType: String?,
+    @Json(name = "ownershipType")
+    val ownershipType: String?,
+    @Json(name = "postalAddressCounty")
+    val postalAddressCounty: String?,
+    @Json(name = "postalAddressLine1")
+    val postalAddressLine1: String?,
+    @Json(name = "postalAddressLine2")
+    val postalAddressLine2: String?,
+    @Json(name = "postalAddressTownCity")
+    val postalAddressTownCity: String?,
+    @Json(name = "postalCode")
+    val postalCode: String?,
+    @Json(name = "providerId")
+    val providerId: String?,
+    @Json(name = "region")
+    val region: String?,
+    @Json(name = "registrationDate")
+    val registrationDate: String?,
+    @Json(name = "registrationStatus")
+    val registrationStatus: String?,
+    @Json(name = "regulatedActivities")
+    val regulatedActivities: List<RegulatedActivity>,
+    @Json(name = "relationships")
+    val relationships: List<Relationship>,
+    @Json(name = "reports")
+    val reports: List<Report>,
+    @Json(name = "type")
+    val type: String?,
+    @Json(name = "uprn")
+    val uprn: String?,
+    @Json(name = "website")
+    val website: String?*/
+)
